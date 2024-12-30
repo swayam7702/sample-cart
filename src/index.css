@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart-items{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cart-empty{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center   ;
+}
+.cart-parent{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center ; */
+  gap: 50px;
+}
+
+.cart-parent .cart-empty p{
+    font-size: 50px;
+
+}
+
+.cart-title{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav{
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  height: 50px;
+  align-items: center;
+  padding: 0px 100px;
+  
+}
+
+.dummy{
+  height: 50px;
+}
